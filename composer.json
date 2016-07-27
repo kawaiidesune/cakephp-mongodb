@@ -10,8 +10,7 @@
             "homepage": "http://veroniquebellamy.fr"
         },
         {
-	        "name": "Jeffrey Renn",
-		"homepage": "http://example.xyz"
+	        "name": "Jeffrey Renn"
         }
     ],
     "require": {
