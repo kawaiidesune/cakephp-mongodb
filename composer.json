@@ -1,0 +1,35 @@
+{
+    "name": "kawaiidesune/cakephp-mongodb",
+    "description": "A MongoDB datasource and data mapper for CakePHP 3.0",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "mongodb"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Véronique Bellamy",
+            "homepage": "http://veroniquebellamy.fr"
+        },
+        {
+	        "name": "Jeffrey Renn"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "~3.1",
+        "mongodb/mongodb": "master"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "dev-master",
+        "psr/log": "~1.0",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
